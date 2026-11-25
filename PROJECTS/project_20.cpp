@@ -45,7 +45,7 @@ int main() {
 
     if (true) {
         // A obj;
-        static A obj;
+        static A obj; // static variable will be created only once and will be destroyed at the end of the program
     }
 
     cout << "end of main function" << endl;
