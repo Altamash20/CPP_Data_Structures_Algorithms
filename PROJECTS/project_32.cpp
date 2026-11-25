@@ -12,7 +12,7 @@ int main() {
 
     cout << ptr1 - ptr2 << endl;
 
-    cout << (ptr1 < ptr2) << endl;
+    cout << (ptr1 < ptr2) << endl; // output will be 0. Similarly, we can also check for other relational operators
 
     return 0;
 }

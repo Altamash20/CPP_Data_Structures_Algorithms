@@ -1,3 +1,5 @@
+// smallest and largest elements in an array
+
 #include <iostream>
 #include <climits>
 using namespace std;
