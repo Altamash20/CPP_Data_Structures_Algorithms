@@ -1,4 +1,5 @@
-// intersection of two arrays
+/* intersection of two arrays. With practice, it will be clear where to initialize bool 
+variable with true and where with false */
 
 #include <iostream>
 using namespace std;
@@ -13,7 +14,7 @@ int main() {
         for(int j = 0; j < size2; j++) {
             if(arr1[i] == arr2[j]){
                 isIntr = true;
-                break;
+                break;  // continue statement will check equality of arr1 element with each of arr2 elements
             }
         }
 
